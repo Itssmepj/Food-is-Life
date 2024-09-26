@@ -25,9 +25,17 @@ body {
     align-items: center;
     height: 100vh;
     color: white;
-    background: rgb(0, 0, 0) url(../images/Restaurant-Hero-Image\ 1.jpg) no-repeat;
+    background: rgb(0, 0, 0) url(../images/Restaurant-Hero-Bg.webp) no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.heading {
+    font-family: "Forum", serif;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    margin: 40px 0 20px;
 }
 
 .sub-heading {
@@ -37,14 +45,6 @@ body {
     line-height: 16px;
     letter-spacing: 0.3em;
     color: #e4c590;
-    margin-bottom: 20px;
-}
-
-.heading {
-    font-family: "Forum", serif;
-    font-size: 120px;
-    font-weight: 400;
-    line-height: 120px;
     margin-bottom: 20px;
 }
 
@@ -65,7 +65,8 @@ body {
     border-width: 0.2px 0.2px 0.2px 0.2px;
     border-color: #e4c590;
     text-decoration: none;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0;
     padding: 21px 41px 21px 41px;
     color: #e4c590;
 }
+
