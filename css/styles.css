@@ -66,6 +66,7 @@ body {
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.3em;
+    text-transform: uppercase;
     color: #e4c590;
     margin-bottom: 20px;
 }
@@ -77,3 +78,32 @@ body {
     word-spacing: 1.5px;
     margin-bottom: 45px;
 }
+
+/* What-we-Offer Section */
+.what-we-offer {
+    padding: 6em 0;
+    background-color: #000000;
+    background-image: url(../images/Restaurant-Flavors-BG.webp);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 20% auto;
+    color: white;
+}
+
+.section-heading {
+    font-family: "Forum", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 40px 0 20px;
+}
+
+.section-under-text {
+    padding: 0% 35% 0% 35%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 45px;
+    color: #a7a7a7;
+}
+
