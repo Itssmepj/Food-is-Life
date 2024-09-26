@@ -10,6 +10,28 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+.main-btn {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0.3em;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.2px 0.2px 0.2px 0.2px;
+    border-color: #e4c590;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 21px 41px 21px 41px;
+    color: #e4c590;
+    transition: 0.2s;
+}
+
+.main-btn:hover {
+    background: #e4c590;   
+    color: black;
+}
+
 .navbar-toggler {
     border: var(--bs-border-width) solid #e4c590 !important;
 }
@@ -54,26 +76,4 @@ body {
     line-height: 36px;
     word-spacing: 1.5px;
     margin-bottom: 45px;
-}
-
-.main-btn {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 12px;
-    letter-spacing: 0.3em;
-    background-color: transparent;
-    border-style: solid;
-    border-width: 0.2px 0.2px 0.2px 0.2px;
-    border-color: #e4c590;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 0;
-    padding: 21px 41px 21px 41px;
-    color: #e4c590;
-    transition: 0.2s;
-}
-
-.main-btn:hover {
-    background: #e4c590;   
-    color: black;
 }
