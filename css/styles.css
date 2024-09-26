@@ -52,6 +52,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
+    word-spacing: 1.5px;
     margin-bottom: 45px;
 }
 
@@ -65,8 +66,14 @@ body {
     border-width: 0.2px 0.2px 0.2px 0.2px;
     border-color: #e4c590;
     text-decoration: none;
+    text-transform: uppercase;
     border-radius: 0;
     padding: 21px 41px 21px 41px;
     color: #e4c590;
+    transition: 0.2s;
 }
 
+.main-btn:hover {
+    background: #e4c590;   
+    color: black;
+}
