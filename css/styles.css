@@ -81,13 +81,22 @@ body {
 
 /* What-we-Offer Section */
 .what-we-offer {
-    padding: 6em 0;
+    padding: 6em 0 0;
     background-color: #000000;
     background-image: url(../images/Restaurant-Flavors-BG.webp);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 20% auto;
     color: white;
+}
+
+.what-we-offer-bg-2{
+    height: 500px;
+    margin-top: -18rem;
+    background-image: url(../images/Restaurant-Flavors-BG-2.webp);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 16% auto;
 }
 
 .what-we-offer .container {
@@ -115,7 +124,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 6.7rem;
     margin-top: -7rem !important;
 }
 
