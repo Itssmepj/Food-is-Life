@@ -94,32 +94,6 @@ body {
     max-width: 1150px;
 }
 
-.product-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    margin-top: -7rem !important;
-}
-
-.what-we-offer .product-design {
-    background-image: url(../images/Restaurant-Pattern.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 387px;
-}
-
-.what-we-offer-product-img {
-    padding-top: 2rem;
-    height: 355px;
-    width: 280px;
-}
-
-.middle-product-img {
-    margin-top: 11rem;
-}
-
 .section-heading {
     font-family: "Forum", serif;
     font-size: 60px;
@@ -137,11 +111,46 @@ body {
     color: #a7a7a7;
 }
 
+.product-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: -7rem !important;
+}
+
+.what-we-offer .product-design {
+    background-image: url(../images/Restaurant-Pattern.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 387px;
+    background-color: transparent;
+}
+
+.what-we-offer-product-img {
+    padding-top: 2rem;
+    height: 355px;
+    width: 280px;
+}
+
+.middle-product-img {
+    margin-top: 11rem;
+}
+
 .what-we-offer-heading {
     font-family: "Forum", serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 42px;
+}
+
+.what-we-offer .card-body  {
+    text-align: center;
+}
+
+.what-we-offer .card-title {
+    color: white;
 }
 
 .what-we-offer a {
@@ -150,5 +159,8 @@ body {
     line-height: 12px;
     letter-spacing: 0.3em;
     color: #e4c590;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
     text-transform: uppercase;
+    text-decoration: none;
 }
