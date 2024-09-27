@@ -145,6 +145,10 @@ body {
 }
 
 .what-we-offer a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0.3em;
     color: #e4c590;
     text-transform: uppercase;
 }
