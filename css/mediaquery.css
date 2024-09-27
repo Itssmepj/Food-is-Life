@@ -3,6 +3,11 @@
         font-size: 80px;
         line-height: 80px;
     }
+
+    .sub-heading {
+        font-size: 42px;
+        line-height: 50px;
+    }
 }
 
 @media only screen and (max-width: 786px) {
@@ -14,5 +19,10 @@
     .heading {
         font-size: 60px;
         line-height: 60px;
+    }
+
+    .sub-heading {
+        font-size: 32px;
+        line-height: 38px;
     }
 }
