@@ -27,7 +27,7 @@
     .product-row {
         gap: 2.5rem;
     }
-    
+
     .what-we-offer-product-img {
         padding-top: 20px;
         width: 175px;
@@ -61,8 +61,8 @@
 
 @media only screen and (max-width: 786px) {
     .navbar-brand {
-        font-size: 1.3rem !important;
-        font-weight: 600;
+        font-size: 1.9rem !important;
+        font-weight: 700;
     }
 
     .heading {

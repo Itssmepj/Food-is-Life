@@ -10,6 +10,12 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+.offcanvas-title {
+    font-size: 1.7rem;
+    color: #e4c590;
+    font-weight: bold;
+}
+
 .main-btn {
     font-size: 12px;
     font-weight: 700;
