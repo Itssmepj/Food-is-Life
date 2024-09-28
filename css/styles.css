@@ -172,7 +172,7 @@ body {
     width: 280px;
 }
 
-.middle-product-img {
+.what-we-offer .col-md-3:nth-child(2) {
     margin-top: 11rem;
 }
 
