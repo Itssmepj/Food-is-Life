@@ -1,25 +1,61 @@
+@media only screen and (max-width: 1110px) {
+    .product-row {
+        gap: 5rem;
+        justify-content: center;
+    }
+
+    .what-we-offer-product-img {
+        width: 248px;
+    }
+
+    .what-we-offer-bg-2 {
+        height: 463px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .heading {
         font-size: 80px;
         line-height: 80px;
     }
 
-    .sub-heading {
+    .section-heading {
         font-size: 42px;
         line-height: 50px;
     }
 
+    .product-row {
+        gap: 2.5rem;
+    }
+    
     .what-we-offer-product-img {
-        padding-top: 25px;
+        padding-top: 20px;
         width: 175px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-product-img {
+        margin-top: 7rem;
     }
 
     .middle-product-img img {
-        height: 239px;
+        height: 235px;
     }
 
     .what-we-offer .product-design {
-        height: 268px;
+        height: 255px;
+    }
+
+    .what-we-offer-heading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .section-under-text {
+        padding: 0% 27% 0% 27%;
     }
 }
 
@@ -34,8 +70,13 @@
         line-height: 60px;
     }
 
-    .sub-heading {
+    .section-heading {
         font-size: 32px;
         line-height: 38px;
+    }
+
+    .what-we-offer-heading {
+        font-size: 26px;
+        line-height: 21px;
     }
 }
