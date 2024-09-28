@@ -10,10 +10,29 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+.offcanvas {
+    transition: transform 0.5s ease !important;
+}
+
 .offcanvas-title {
     font-size: 1.7rem;
     color: #e4c590;
     font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.3rem !important;
+    margin-bottom: 25px;
+    background-color: transparent;
+    transition: background-color;
+
+}
+
+.nav-link:hover {
+    color: #e4c590 !important;
+    transition: all 0.2s ease-out;
+    background-color: #d0cfc92b;
+    padding-left: 20px;
 }
 
 .main-btn {
@@ -36,6 +55,10 @@ body {
 .main-btn:hover {
     background: #e4c590;   
     color: black;
+}
+
+.contact-us-btn {
+    padding: 13px 15px;
 }
 
 .navbar-toggler {
