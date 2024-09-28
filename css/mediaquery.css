@@ -8,6 +8,19 @@
         font-size: 42px;
         line-height: 50px;
     }
+
+    .what-we-offer-product-img {
+        padding-top: 25px;
+        width: 175px;
+    }
+
+    .middle-product-img img {
+        height: 239px;
+    }
+
+    .what-we-offer .product-design {
+        height: 268px;
+    }
 }
 
 @media only screen and (max-width: 786px) {
