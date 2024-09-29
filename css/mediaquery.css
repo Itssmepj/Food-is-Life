@@ -86,6 +86,10 @@
 }
 
 @media only screen and (max-width: 730px) {
+    .offcanvas {
+        max-width: 45% !important;
+    }
+
     .section-under-text {
         padding: 0;
     }
@@ -106,6 +110,13 @@
 }
 
 @media only screen and (max-width: 554px) {
+    .offcanvas {
+        max-width: 55% !important;
+    }
+    .navbar-brand {
+        font-size: 1.6rem !important;
+    }
+    
     .product-row {
         gap: 10rem;
     }
