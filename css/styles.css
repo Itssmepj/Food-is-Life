@@ -133,6 +133,7 @@ body {
 }
 
 .section-heading {
+    color: white;
     font-family: "Forum", serif;
     font-size: 60px;
     font-weight: 400;
@@ -201,4 +202,14 @@ body {
     border-width: 0px 0px 1px 0px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 9rem 0;
+    background: #171819;
+}
+
+.about-us .section-heading {
+    padding: 0 170px;
 }
