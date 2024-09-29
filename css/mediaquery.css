@@ -104,3 +104,9 @@
         height: 438px;
     }
 }
+
+@media only screen and (max-width: 554px) {
+    .product-row {
+        gap: 10rem;
+    }
+}
