@@ -211,5 +211,31 @@ body {
 }
 
 .about-us .section-heading {
-    padding: 0 170px;
+    padding: 0 150px;
+}
+
+.about-us .col-lg-2 h2:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 45px;
+}
+
+.about-us .section-under-text {
+    padding: 0 20%;
+}
+
+/* .about-us h2:nth-of-type(2) { */
+.about-us h2:nth-child(5) {
+    font-size: 1.1rem !important;
+    color: white;
+}
+
+.about-us h3 {
+    font-family: "Forum", serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #e4c590;
+    margin: 20px 0 60px;
 }
