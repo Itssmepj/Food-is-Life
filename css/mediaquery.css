@@ -8,6 +8,10 @@
         padding: 0 60px;
     }
 
+    .about-us .section-under-text {
+        padding: 0 10%;
+    }
+
     .about-us .col-lg-6:nth-child(2) img {
         width: 100%;
         height: auto;
