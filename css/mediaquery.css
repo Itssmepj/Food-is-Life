@@ -3,6 +3,12 @@
         padding: 0 110px;
     }
 }
+@media only screen and (max-width: 1200px) {
+    .about-us .section-heading {
+        padding: 0 60px;
+    }
+}
+
 @media only screen and (max-width: 1110px) {
     .product-row {
         gap: 5rem;
