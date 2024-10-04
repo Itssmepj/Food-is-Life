@@ -73,6 +73,16 @@
     }
 }
 
+@media only screen and (max-width: 992px) {
+    .about-us .section-heading {
+        padding: 0 60px;
+    }
+    
+    .about-us h3 {
+        margin: 20px 0 45px;
+    }
+}
+
 @media only screen and (max-width: 845px) {
     .section-under-text {
         padding: 0% 27% 0% 27%;
