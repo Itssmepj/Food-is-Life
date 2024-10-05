@@ -74,6 +74,10 @@
 }
     
 @media only screen and (max-width: 992px) {
+    .about-us {
+        padding: 6rem 0;
+    }
+
     .about-us .section-heading {
         padding: 0 60px;
     }
