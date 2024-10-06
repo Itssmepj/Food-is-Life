@@ -125,6 +125,11 @@
         gap: 5rem;
     }
 
+    .about-us .col-lg-6:nth-child(2) img {
+        width: 515px;
+        margin-left: 0rem;
+    }
+
 }
 
 @media only screen and (max-width: 730px) {
@@ -155,11 +160,17 @@
     .offcanvas {
         max-width: 55% !important;
     }
+    
     .navbar-brand {
         font-size: 1.6rem !important;
     }
     
     .product-row {
         gap: 10rem;
+    }
+
+    .about-us .col-lg-6:nth-child(2) img {
+        width: 450px;
+        margin-left: 2.1rem;
     }
 }
