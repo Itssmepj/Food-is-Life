@@ -85,9 +85,12 @@
     .about-us h3 {
         margin: 20px 0 45px;
     }
-
+    
     .about-us .col-lg-6:nth-child(2) img {
+        width: 530px;
         margin-top: 6rem;
+        height: auto;
+        margin-left: 5rem;
     }
 }
 
@@ -121,6 +124,7 @@
     .product-row {
         gap: 5rem;
     }
+
 }
 
 @media only screen and (max-width: 730px) {
