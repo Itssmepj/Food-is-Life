@@ -168,12 +168,15 @@
     .product-row {
         gap: 10rem;
     }
+    
+    .about-us .col-lg-6:nth-child(2) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
     .about-us .col-lg-6:nth-child(2) img {
         width: 85vw;
         margin-left: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
     }
 }
