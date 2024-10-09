@@ -253,3 +253,11 @@ body {
 .best-seller .section-under-text {
     padding: 0;
 }
+
+.best-seller h2:nth-child(5){
+    font-size: 25px;
+}
+
+.best-seller h2:nth-child(5), h3 {
+    display: inline;
+}
