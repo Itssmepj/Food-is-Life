@@ -249,3 +249,7 @@ body {
 .best-seller {
     background: #000;
 }
+
+.best-seller .section-under-text {
+    padding: 0;
+}
