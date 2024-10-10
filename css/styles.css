@@ -270,12 +270,3 @@ body {
     color: #e4c590;
     margin: 20px 0 60px;
 }
-
-.best-seller h2:nth-child(5){
-    font-size: 18px;
-    line-height: 23px;
-}
-
-.best-seller h2:nth-child(5) {
-    display: inline;
-}
