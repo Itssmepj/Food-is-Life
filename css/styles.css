@@ -90,7 +90,6 @@ body {
 }
 
 .sub-heading {
-    font-family: "DM Sans", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 16px;
@@ -248,6 +247,16 @@ body {
 /* Best Seller */
 .best-seller {
     background: #000;
+}
+
+.best-seller .row {
+    margin-right: 0 !important;
+    align-items: center;
+    text-align: left;
+}
+
+.best-seller .col-lg-6:nth-child(2) {
+    padding: 0 7rem;
 }
 
 .best-seller .section-under-text {
