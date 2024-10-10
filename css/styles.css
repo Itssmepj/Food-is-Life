@@ -267,6 +267,6 @@ body {
     line-height: 23px;
 }
 
-.best-seller h2:nth-child(5), h3 {
+.best-seller h2:nth-child(5) {
     display: inline;
 }
