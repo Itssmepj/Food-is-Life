@@ -255,8 +255,12 @@ body {
     text-align: left;
 }
 
+.best-seller .col-lg-6:nth-child(1) img {
+    width: 756px;
+}
+
 .best-seller .col-lg-6:nth-child(2) {
-    padding: 0 7rem;
+    padding: 5.5rem 7.5rem;
 }
 
 .best-seller .section-under-text {
