@@ -2,7 +2,16 @@
     .about-us .section-heading {
         padding: 0 110px;
     }
+
+    .best-seller .col-lg-6:nth-child(2) {
+        padding: 0 6rem;
+    }
+
+    .best-seller .col-lg-6:nth-child(1) img {
+        width: 693px;
+    }
 }
+
 @media only screen and (max-width: 1200px) {
     .about-us .section-heading {
         padding: 0 60px;
