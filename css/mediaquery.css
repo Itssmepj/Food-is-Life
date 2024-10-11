@@ -22,6 +22,12 @@
     }
 }
 
+@media only screen and (max-width: 1250px) {
+    .best-seller .col-lg-6:nth-child(1) img {
+        width: 610px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .about-us .section-heading {
         padding: 0 60px;
