@@ -263,6 +263,10 @@ body {
     padding: 5.5rem 7.5rem;
 }
 
+.best-seller .section-heading {
+    margin: 20px 0;
+}
+
 .best-seller .section-under-text {
     padding: 0;
     margin-bottom: 20px;
