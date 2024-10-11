@@ -41,6 +41,11 @@
         width: 100%;
         height: auto;
     }
+
+    .best-seller .col-lg-6:nth-child(1) img {
+        width: 584px;
+        height: 600px;
+    }
 }
 
 @media only screen and (max-width: 1110px) {
