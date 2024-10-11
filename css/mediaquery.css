@@ -14,7 +14,11 @@
 
 @media only screen and (max-width: 1330px) {
     .best-seller .col-lg-6:nth-child(2) {
-        padding: 0 3rem 0 6rem;
+        padding: 0 3rem 0 4rem;
+    }
+
+    .best-seller .col-lg-6:nth-child(1) img {
+        width: 650px;
     }
 }
 
