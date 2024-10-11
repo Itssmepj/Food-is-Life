@@ -265,6 +265,7 @@ body {
 
 .best-seller .section-under-text {
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .best-seller h3 {
@@ -272,5 +273,5 @@ body {
     font-weight: 400;
     line-height: 31px;
     color: #e4c590;
-    margin: 20px 0 60px;
+    margin: 0 0 50px;
 }
