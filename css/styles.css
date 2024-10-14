@@ -255,6 +255,10 @@ body {
     text-align: left;
 }
 
+.best-seller .col-lg-6 {
+    z-index: 2;
+}
+
 .best-seller .col-lg-6:nth-child(1) img {
     width: 100%;
     object-fit: cover;
@@ -289,5 +293,4 @@ body {
     height: 22rem;
     background-color: #000;
     margin-top: -25rem !important;
-    z-index: 0;
 }

@@ -140,6 +140,11 @@
     .best-seller .col-lg-6:nth-child(2) {
         padding: 1rem 3rem 6rem 3.5rem;
     }
+
+    .best-seller-bg-image {
+        background-size: 20% auto;
+        margin-top: -30rem !important;  
+    }
 }
 
 @media only screen and (max-width: 845px) {
@@ -231,6 +236,11 @@
     .about-us .col-lg-6:nth-child(2) img {
         width: 85vw;
         margin-left: 0;
+    }
+
+    .best-seller-bg-image {
+        margin-top: -18rem !important;  
+        height: 18rem;
     }
 }
 
