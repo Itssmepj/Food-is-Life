@@ -214,6 +214,16 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .what-we-offer {
+        background-size: 35% auto;    
+    }
+        
+    .what-we-offer-bg-2{
+        background-size: 28% auto;    
+    }
+}
+
 @media only screen and (max-width: 554px) {
     .offcanvas {
         max-width: 55% !important;
@@ -239,8 +249,9 @@
     }
 
     .best-seller-bg-image {
-        margin-top: -18rem !important;  
+        margin-top: -20rem !important;  
         height: 18rem;
+        background-size: 25% auto;
     }
 }
 
