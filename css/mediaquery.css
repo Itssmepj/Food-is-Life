@@ -151,6 +151,13 @@
     .section-under-text {
         padding: 0% 27% 0% 27%;
     }
+
+    .our-menu-image {
+        background-position: top center;
+        background-size: 24% auto;
+        right: 0;
+        top: 95px;
+    }
 }
 
 @media only screen and (max-width: 786px) {
@@ -210,7 +217,13 @@
     }
 
     .what-we-offer-bg-2 {
-        height: 438px;
+        height: 438px;  
+    }
+
+    .our-menu-image {
+        background-position: top right;
+        background-size: 23% auto;
+        height: 270px;
     }
 }
 

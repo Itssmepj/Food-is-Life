@@ -294,3 +294,24 @@ body {
     background-color: #000;
     margin-top: -25rem !important;
 }
+
+
+/* Our Menu Section */
+.our-menu {
+    padding: 1px 0 0;
+    background-color: #171819;
+    color: white;
+}
+
+.our-menu-image {
+    background-image: url(../images/Restaurant-Special-BG-2.webp);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 22% auto;
+    height: 310px;
+    position: relative;
+    margin-top: -12rem;
+    right: -3%;
+    z-index: 10;
+    top: 75px;
+}
