@@ -133,7 +133,12 @@
     }
 
     .best-seller .col-lg-6:nth-child(1) img {
+        padding: 4rem 2rem;
         height: 600px;
+    }
+
+    .best-seller .col-lg-6:nth-child(2) {
+        padding: 1rem 3rem 6rem 3.5rem;
     }
 }
 
@@ -157,6 +162,11 @@
     .section-heading {
         font-size: 32px;
         line-height: 38px;
+    }
+
+    .section-under-text {
+        font-size: 14px;
+        line-height: 25px;
     }
 
     .what-we-offer-heading {
@@ -227,5 +237,9 @@
 @media only screen and (max-width: 460px) {
     .about-us {
         padding: 5rem 0;
+    }
+
+    .best-seller .col-lg-6:nth-child(1) img {
+        height: 480px;
     }
 }

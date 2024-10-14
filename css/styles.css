@@ -280,3 +280,14 @@ body {
     color: #e4c590;
     margin: 0 0 50px;
 }
+
+.best-seller-bg-image {
+    background-image: url(/images/Restaurant-Special-BG.webp);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 10% auto;
+    height: 22rem;
+    background-color: #000;
+    margin-top: -25rem !important;
+    z-index: 0;
+}
