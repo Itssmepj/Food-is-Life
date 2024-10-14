@@ -255,14 +255,6 @@ body {
     text-align: left;
 }
 
-/* .best-seller .row .col-lg-6:nth-child(1) {
-    background-image: url(/images/testimonial.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
-
 .best-seller .col-lg-6:nth-child(1) img {
     width: 100%;
     object-fit: cover;
