@@ -350,19 +350,35 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
 }
 
 .our-menu-item, .card {
     background: transparent !important;
-    border: none;
+    border: none !important;
     color: white !important;
-    margin: 0 50px;
+    margin: 0 20px 0 0;
     text-align: left;
     display: none; /* Initially hidden */
 }
 
 .our-menu-items img {
-    border-radius: 15px;
-    width: 120px;
-    height: 120px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.our-menu-item h5 {
+    font-family: "Forum", serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+
+.our-menu-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #a7a7a7;
 }
