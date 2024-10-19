@@ -342,7 +342,7 @@ body {
     border: none;
 }
 
-.filter-btn:active {
+button:focus:not(:focus-visible) {
     color: #e4c590;
 }
 
