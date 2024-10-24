@@ -321,8 +321,7 @@ body {
 .menu {
     text-align: center;
     /* max-width: 800px; */
-    margin: 0 auto 100px;
-
+    margin: 0 auto 120px;
 }
 
 .filter-buttons {
@@ -374,6 +373,10 @@ button:focus:not(:focus-visible) {
     margin: 0;
     text-align: left;
     display: none; /* Initially hidden */
+}
+
+.our-menu-item .col-lg-6 .card {
+    margin-bottom: 3rem !important;
 }
 
 .our-menu-item .col-md-7 .card-body {
