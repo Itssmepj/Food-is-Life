@@ -303,6 +303,10 @@ body {
     color: white;
 }
 
+.our-menu .container {
+    text-align: center;
+}
+
 .our-menu-image {
     background-image: url(../images/Restaurant-Special-BG-2.webp);
     background-position: top right;
@@ -317,7 +321,8 @@ body {
 .menu {
     text-align: center;
     /* max-width: 800px; */
-    margin: 0 auto;
+    margin: 0 auto 5.5rem;
+
 }
 
 .filter-buttons {
@@ -371,10 +376,14 @@ button:focus:not(:focus-visible) {
     display: none; /* Initially hidden */
 }
 
+.our-menu-item .card-body {
+    padding: 0.2rem 1rem;
+}
+
 .our-menu-items img {
     border-radius: 5px;
     width: 100px;
-    height: 100px;
+    height: 95px;
 }
 
 .our-menu-item h5 {
