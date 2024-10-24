@@ -350,7 +350,16 @@ button:focus:not(:focus-visible) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    /* gap: 1rem; */
+}
+
+.our-menu-items .morning-col, .lunch-col, .dinner-col, .wine-col{
+    padding-right: 51px;
+    padding-left: 51px;
+}
+
+.our-menu-items .morning-col:nth-child(1), .lunch-col:nth-child(1), .dinner-col:nth-child(1) .wine-col:nth-child(1){
+    border-right: 1px solid #717171;
 }
 
 .our-menu-item, .card {
