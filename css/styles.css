@@ -358,12 +358,12 @@ button:focus:not(:focus-visible) {
     /* gap: 1rem; */
 }
 
-.our-menu-items .morning-col, .lunch-col, .dinner-col, .wine-col{
+.our-menu-items .col-lg-6 {
     padding-right: 51px;
-    padding-left: 51px;
+    padding-left: 54px;
 }
 
-.our-menu-items .morning-col:nth-child(1), .lunch-col:nth-child(1), .dinner-col:nth-child(1) .wine-col:nth-child(1){
+.our-menu-items .col-lg-6:nth-child(odd) {
     border-right: 1px solid #717171;
 }
 
@@ -371,13 +371,19 @@ button:focus:not(:focus-visible) {
     background: transparent !important;
     border: none !important;
     color: white !important;
-    margin: 0 20px 0 0;
+    margin: 0;
     text-align: left;
     display: none; /* Initially hidden */
 }
 
-.our-menu-item .card-body {
+.our-menu-item .col-md-7 .card-body {
     padding: 0.2rem 1rem;
+}
+
+.our-menu-item .col-md-3 .card-body {
+    text-align: right;
+    margin-right: 0;
+    padding: 1rem 0;
 }
 
 .our-menu-items img {
@@ -401,8 +407,12 @@ button:focus:not(:focus-visible) {
     color: #a7a7a7;
 }
 
+.menu .section-under-text {
+    margin-top: 65px;
+}
+
 .best-speciality {
     background: #000;
     padding: 120px 0;
-    border-right: url(../images/);
+    border-right: url(../images/Restaurant-Pattern-2.webp);
 }
