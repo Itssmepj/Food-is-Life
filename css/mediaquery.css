@@ -141,6 +141,18 @@
         background-size: 20% auto;
         margin-top: -30rem !important;  
     }
+
+    .our-menu-items .col-lg-6:nth-child(odd) {
+        border-right: none;
+    }
+
+    .our-menu-items .col-lg-6 {
+        padding: 0;
+    }
+
+    .our-menu-items .col-lg-6 .row {
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media only screen and (max-width: 845px) {
