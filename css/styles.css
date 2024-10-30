@@ -383,7 +383,7 @@ button:focus:not(:focus-visible) {
     padding: 0.2rem 1rem;
 }
 
-.our-menu-item .col-md-2 .card-body {
+.our-menu-item .col-md-3 .card-body {
     text-align: right;
     margin-right: 0;
     padding: 1rem 0;
