@@ -48,6 +48,10 @@
     .best-seller .col-lg-6:nth-child(1) img {
         height: 750px;
     }
+
+    .menu .section-under-text {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 1178px) {
