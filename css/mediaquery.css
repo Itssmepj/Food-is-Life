@@ -157,6 +157,10 @@
     .our-menu-items .col-lg-6 .row {
         margin-bottom: 2.5rem;
     }
+
+    .menu .section-under-text {
+        margin-top: 22px;
+    }
 }
 
 @media only screen and (max-width: 845px) {
@@ -240,6 +244,19 @@
         background-position: top right;
         background-size: 23% auto;
         height: 270px;
+    }
+
+    .our-menu-item h5 {
+        font-size: 19px;
+        margin-bottom: 0px;
+    }
+
+    .our-menu-item p {
+        font-size: 14px;
+    }
+
+    .our-menu-item .col-md-3 .card-body {
+        padding: 0.2rem 0;
     }
 }
 
