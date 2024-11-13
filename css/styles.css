@@ -366,6 +366,10 @@ button:focus:not(:focus-visible) {
     border-right: 1px solid #717171;
 }
 
+.our-menu-item {
+    max-width: 540px;
+}
+
 .our-menu-item, .card {
     background: transparent !important;
     border: none !important;
