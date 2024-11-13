@@ -346,6 +346,12 @@ body {
     border: none;
 }
 
+.filter-btn.active {
+    color: #e4c590;
+    transition: all 0.2s ease-in-out;
+}
+
+
 button:focus:not(:focus-visible) {
     color: #e4c590;
 }
