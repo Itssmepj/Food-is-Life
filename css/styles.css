@@ -427,5 +427,9 @@ button:focus:not(:focus-visible) {
 .best-speciality {
     background: #000;
     padding: 120px 0;
-    border-right: url(../images/Restaurant-Pattern-2.webp);
+    border-right: url(../images/);
+}
+
+.best-speciality .image-row .col-lg-3 img {
+    width: -webkit-fill-available;
 }
