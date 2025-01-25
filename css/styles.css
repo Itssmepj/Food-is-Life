@@ -440,5 +440,8 @@ button:focus:not(:focus-visible) {
 }
 
 .best-speciality .image-row .col-lg-3 img {
-width: -webkit-fill-available;
+    width: -webkit-fill-available;
+    height: 270px;
+    width: 240px;
+
 }
