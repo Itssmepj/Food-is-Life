@@ -6,10 +6,16 @@
     .best-seller .col-lg-6:nth-child(2) {
         padding: 0 6rem;
     }
+    
+    .best-speciality {
+        margin: 0 40px;
+    }
+}
 
-    /* .best-seller .col-lg-6:nth-child(1) img {
-        width: 693px;
-    } */
+@media only screen and (max-width: 1400px) {
+    .best-speciality {
+        max-width: 1300px !important;
+    }
 }
 
 @media only screen and (max-width: 1330px) {
@@ -52,9 +58,6 @@
     .menu .section-under-text {
         padding: 0;
     }
-}
-
-@media only screen and (max-width: 1178px) {
 }
 
 @media only screen and (max-width: 1110px) {
