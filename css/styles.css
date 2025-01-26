@@ -413,7 +413,7 @@ button:focus:not(:focus-visible) {
     margin-bottom: 8px;
 }
 
-.our-menu-item p {
+.our-menu-item p, .image-row p {
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
