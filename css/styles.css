@@ -277,7 +277,7 @@ body {
     margin-bottom: 20px;
 }
 
-.best-seller h3 {
+.best-seller h3, .image-row h3{
     font-size: 24px;
     font-weight: 400;
     line-height: 31px;
@@ -445,6 +445,14 @@ button:focus:not(:focus-visible) {
     width: 245px;
 }
 
-#best-speciality > div.row.image-row > div:nth-child(even) > figure > img {
+.best-speciality > div.row.image-row > div:nth-child(even) > figure > img {
     margin-top: 50px;
+}
+
+.image-row .what-we-offer-heading {
+    font-size: 25px;
+}
+
+.image-row p {
+    font-size: 14px;
 }
