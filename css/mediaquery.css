@@ -70,7 +70,11 @@
     }
 
     .best-speciality {
-        margin: 0 -50px;
+        margin: 0 -62px;
+    }
+
+    .best-speciality .image-row {
+        margin: 35px 45px 0;
     }
 }
 

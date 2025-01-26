@@ -432,7 +432,7 @@ button:focus:not(:focus-visible) {
 }
 
 .best-speciality .image-row {
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 35px 60px 0;
 }
 
