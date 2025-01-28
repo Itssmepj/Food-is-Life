@@ -287,6 +287,19 @@
         padding: 15px;
     }
 
+    .best-speciality {
+        margin: 0 -60px;
+        padding: 80px 0;
+    }
+
+    .image-row .what-we-offer-heading {
+        font-size: 21px;
+    }
+
+    .image-row h3 {
+        font-size: 19px;
+    }
+
 }
 
 @media only screen and (max-width: 730px) {
@@ -329,6 +342,14 @@
 
     .our-menu-item .col-md-3 .card-body {
         padding: 0.2rem 0;
+    }
+
+    .best-speciality {
+        margin: 0 -30px;
+    }
+
+    .best-speciality .image-row {
+        margin: 50px 0px 0;
     }
 }
 
