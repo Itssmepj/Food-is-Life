@@ -382,7 +382,7 @@ button:focus:not(:focus-visible) {
     color: white !important;
     margin: 0;
     text-align: left;
-    display: none; /* Initially hidden */
+    display: none;
 }
 
 .our-menu-item .col-lg-6 .card {
@@ -456,4 +456,12 @@ button:focus:not(:focus-visible) {
 
 .image-row p {
     font-size: 14px;
+}
+
+
+/* Our Strength Section */
+.our-strength {
+    padding: 1px 0 105px;
+    background-color: #171819;
+    color: white;
 }
