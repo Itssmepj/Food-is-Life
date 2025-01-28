@@ -207,6 +207,23 @@
     .menu .section-under-text {
         margin-top: 22px;
     }
+
+    .best-speciality {
+        margin: 0 -65px;
+    }
+
+    .best-speciality .image-row {
+        margin: 50px 25px 0;
+        justify-content: center;
+    }
+
+    .best-speciality .image-row .col-lg-3 {
+        width: 50%;
+    }
+
+    .best-speciality > div.row.image-row > div:nth-child(even) > figure > img {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 845px) {
