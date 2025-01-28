@@ -239,6 +239,11 @@
 
     .best-speciality {
         margin: 0 5px;
+        padding: 80px 0;
+    }
+
+    .best-speciality .image-row .col-lg-3 img {
+        width: 200px;
     }
 }
 
