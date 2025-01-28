@@ -373,6 +373,22 @@
     .our-menu-items .col-lg-6 .row .col-sm-3 {
         width: 15%;
     }
+
+    .best-speciality {
+        margin: 0 45px;
+    }
+
+    .best-speciality .image-row {
+        gap: 15px;
+    }
+
+    .best-speciality .image-row .col-lg-3 {
+        width: 100%;
+    }
+
+    .image-row .card-body {
+        margin-top: 1.5rem !important;
+    }
 }
 
 @media only screen and (max-width: 554px) {
@@ -413,5 +429,9 @@
 
     .best-seller .col-lg-6:nth-child(1) img {
         height: 480px;
+    }
+
+    .best-speciality {
+        margin: 0 25px;
     }
 }
