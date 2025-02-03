@@ -474,7 +474,7 @@ button:focus:not(:focus-visible) {
 .our-strength .card {
     width: 22%;
     align-items: center;
-    padding: 40px 15px;
+    padding: 40px 0;
     border-radius: 0;
 }
 

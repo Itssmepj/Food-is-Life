@@ -32,6 +32,14 @@
     .best-speciality {
         margin: 0 -15px;
     }
+
+    .our-strength .card-row {
+        justify-content: space-evenly;
+    }
+
+    .our-strength .card {
+        width: 23%;
+    }
 }
 
 @media only screen and (max-width: 1250px) {
