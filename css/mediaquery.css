@@ -467,4 +467,8 @@
         margin: 0 15px;
         padding: 65px 0;
     }
+
+    .our-strength .card {
+        width: 75%;
+    }
 }
