@@ -468,6 +468,7 @@ button:focus:not(:focus-visible) {
 
 .our-strength .card-row {
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .our-strength .card {
