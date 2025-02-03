@@ -232,6 +232,17 @@
     .best-speciality > div.row.image-row > div:nth-child(even) > figure > img {
         margin-top: 0;
     }
+
+    .our-strength .card-row {
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+
+    .our-strength .card {
+        width: 40%;
+    }
+
+
 }
 
 @media only screen and (max-width: 845px) {
