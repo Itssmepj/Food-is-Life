@@ -319,6 +319,15 @@
         font-size: 19px;
     }
 
+    .our-strength .card-row {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .our-strength .card {
+        width: 48%;
+    }
+
 }
 
 @media only screen and (max-width: 730px) {
