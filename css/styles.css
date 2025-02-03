@@ -473,8 +473,9 @@ button:focus:not(:focus-visible) {
 
 .our-strength .card {
     width: 22%;
-    font-family: inherit;
     align-items: center;
+    padding: 40px 15px;
+    border-radius: 0;
 }
 
 .our-strength .card-body {
@@ -482,4 +483,19 @@ button:focus:not(:focus-visible) {
     margin-top: 20px;
 }
 
+.our-strength .card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 45px;
+    color: #a7a7a7;
+}
+
+.our-strength .card:nth-child(even) {
+    background: #0e0d0c !important;
+}
+
+.our-strength .card:nth-child(odd) {
+    background: #151616 !important;
+}
 
