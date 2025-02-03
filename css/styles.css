@@ -465,3 +465,9 @@ button:focus:not(:focus-visible) {
     background-color: #171819;
     color: white;
 }
+
+.our-strength .card {
+    width: 25%;
+}
+
+
