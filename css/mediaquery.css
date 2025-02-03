@@ -417,6 +417,10 @@
     .image-row .card-body {
         margin-top: 1.5rem !important;
     }
+
+    .our-strength .card {
+        width: 55%;
+    }
 }
 
 @media only screen and (max-width: 554px) {
