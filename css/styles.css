@@ -450,7 +450,7 @@ button:focus:not(:focus-visible) {
     margin-top: 50px;
 }
 
-.image-row .what-we-offer-heading {
+.image-row .what-we-offer-heading, .our-strength .what-we-offer-heading {
     font-size: 25px;
 }
 
@@ -466,8 +466,19 @@ button:focus:not(:focus-visible) {
     color: white;
 }
 
+.our-strength .card-row {
+    justify-content: space-evenly;
+}
+
 .our-strength .card {
-    width: 25%;
+    width: 22%;
+    font-family: inherit;
+    align-items: center;
+}
+
+.our-strength .card-body {
+    text-align: center;
+    margin-top: 20px;
 }
 
 
