@@ -651,7 +651,7 @@ button:focus:not(:focus-visible) {
 
 /* Our Strength Section */
 .our-strength {
-    padding: 1px 0 105px;
+    padding: 120px 0 105px;
     background-color: #171819;
     color: white;
 }
