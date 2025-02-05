@@ -116,6 +116,10 @@
         height: 225px;
         width: 185px;
     }
+
+    .our-strength {
+        padding: 100px 0 105px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -233,6 +237,10 @@
         margin-top: 0;
     }
 
+    .testimonial {
+        padding-top: 100px;
+    }
+
     .our-strength .card-row {
         justify-content: space-evenly;
         gap: 15px;
@@ -264,9 +272,13 @@
     .best-speciality .image-row .col-lg-3 img {
         width: 200px;
     }
+
+    .testimonial4_slide p {
+        font-size: 25px;
+    }
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.9rem !important;
         font-weight: 700;
@@ -317,6 +329,19 @@
 
     .image-row h3 {
         font-size: 19px;
+    }
+
+    .testimonial .container {
+        max-width: 750px !important;
+    }
+
+    .testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 0;
     }
 
     .our-strength .card-row {
@@ -416,6 +441,15 @@
 
     .image-row .card-body {
         margin-top: 1.5rem !important;
+    }
+
+    .testimonial4_slide {
+        width: 80%;
+        padding: 0px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 5% !important;
     }
 
     .our-strength .card {
