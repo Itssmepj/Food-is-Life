@@ -459,7 +459,7 @@ button:focus:not(:focus-visible) {
 }
 
 /* Testimonial Section */
-.testimonial:after {
+/* .testimonial:after {
     position: absolute;
     top: -0 !important;
     left: 0;
@@ -470,15 +470,13 @@ button:focus:not(:focus-visible) {
     height: 100px;
     float: left;
     z-index: 99;
-}
+} */
 
 .testimonial {
-    min-height: 375px;
+    height: 540px;
     position: relative;
     background: url(../images/Restaurant-Testimonial-Image.webp);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-position: center;
+    padding-top: 120px;
     background-size: cover;
 }
 
@@ -624,15 +622,19 @@ button:focus:not(:focus-visible) {
 }
 
 .testimonial4_slide p {
+    font-family: "Forum", serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 400;
     line-height: 1.4;
     margin: 40px 0 20px 0;
 }
 
 .testimonial4_slide h4 {
-    color: #ffffff;
+    font-family: "Forum", serif;
+    color: #e4c590;
     font-size: 22px;
+    font-weight: 500;
 }
 
 .testimonial .carousel {
