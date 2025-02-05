@@ -463,7 +463,7 @@ button:focus:not(:focus-visible) {
     height: 540px;
     position: relative;
     background: url(../images/Restaurant-Testimonial-Image.webp);
-    padding-top: 120px;
+    padding-top: 145px;
     background-size: cover;
 }
 
