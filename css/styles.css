@@ -10,6 +10,10 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+a, a:hover, a:active, a:visited {
+    text-decoration: none !important;
+}
+
 .offcanvas {
     transition: transform 0.5s ease !important;
 }
@@ -673,4 +677,29 @@ button:focus:not(:focus-visible) {
 
 .our-strength .card:nth-child(odd) {
     background: #151616 !important;
+}
+
+/* Footer Section */
+footer {
+    padding: 100px 0;
+    background-image: url(../images/tasty-salad-with-seasonings.jpg);
+    background-size: cover;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+}
+
+.footer-li {
+    list-style: none; 
+    text-transform: uppercase; 
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.footer-li:hover {
+    color: #e4c590;
 }
