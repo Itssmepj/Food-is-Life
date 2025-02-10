@@ -703,3 +703,27 @@ footer ul {
 .footer-li:hover {
     color: #e4c590;
 }
+
+.footer .navbar-brand {
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #a7a7a7;
+}
+
+.footer .section-heading {
+    color: white;
+    font-family: "Forum", serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 40px 0 20px;
+}
+
+.footer img:nth-child(2) {
+    margin-top: 20px;
+}
