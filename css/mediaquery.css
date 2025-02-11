@@ -279,7 +279,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar-brand {
+    .navbar-brand, .footer-brand {
         font-size: 1.9rem !important;
         font-weight: 700;
     }
@@ -462,7 +462,7 @@
         max-width: 55% !important;
     }
     
-    .navbar-brand {
+    .navbar-brand, .footer-brand {
         font-size: 1.6rem !important;
     }
     
