@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap');
 
 *{
@@ -641,7 +640,7 @@ button:focus:not(:focus-visible) {
 
 /* Our Strength Section */
 .our-strength {
-    padding: 120px 0 105px;
+    padding: 120px 0 125px;
     background-color: #171819;
     color: white;
 }
@@ -682,7 +681,7 @@ button:focus:not(:focus-visible) {
 /* Footer Section */
 footer {
     padding: 100px 0;
-    background-image: url(../images/tasty-salad-with-seasonings.jpg);
+    background-image: url(../images/delicious-indian-thali.png);
     background-size: cover;
 }
 
@@ -700,7 +699,7 @@ footer ul {
 .footer-li {
     list-style: none; 
     text-transform: uppercase; 
-    color: #a7a7a7;
+    color: #d2d2d2;
     text-decoration: none;
 }
 
@@ -732,8 +731,28 @@ footer ul {
     margin-top: 20px;
 }
 
+.footer .col-lg-4:nth-child(odd) {
+    width: 29%;
+}
+
 .footer .col-lg-4:nth-child(2) {
     background-color: #000;
+    border: 10px solid transparent;
     border-image: url(../images/Restaurant-Pattern-2.webp) 30 round;
     padding: 80px 20px;
+    width: 42%;
+}
+
+footer .form-control-lg {
+    background-color: transparent;
+    border-color: #171819;
+}
+
+footer .main-btn {
+    background-color: #e4c590;
+    color: #000;
+}
+
+footer .main-btn:hover {
+    background-color: #d2ac6a;
 }
