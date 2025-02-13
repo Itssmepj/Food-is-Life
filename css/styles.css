@@ -686,6 +686,10 @@ footer {
     background-size: cover;
 }
 
+footer .row {
+    align-items: center;
+}
+
 footer ul {
     display: flex;
     flex-direction: column;
@@ -720,10 +724,16 @@ footer ul {
     font-family: "Forum", serif;
     font-size: 35px;
     font-weight: 400;
-    line-height: 42px;
+    line-height: 42px; 
     margin: 40px 0 20px;
 }
 
 .footer img:nth-child(2) {
     margin-top: 20px;
+}
+
+.footer .col-lg-4:nth-child(2) {
+    background-color: #000;
+    border-image: url(../images/Restaurant-Pattern-2.webp) 30 round;
+    padding: 80px 20px;
 }
