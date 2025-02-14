@@ -718,6 +718,10 @@ footer ul {
     color: #a7a7a7;
 }
 
+.footer-text:nth-child(8) {
+    margin-bottom: 45px;
+}
+
 .footer .section-heading {
     color: white;
     font-family: "Forum", serif;
@@ -735,7 +739,7 @@ footer ul {
     width: 29%;
 }
 
-.footer .col-lg-4:nth-child(2) {
+.footer .col-lg-4:nth-child(even) {
     background-color: #000;
     border: 10px solid transparent;
     border-image: url(../images/Restaurant-Pattern-2.webp) 30 round;
@@ -745,7 +749,10 @@ footer ul {
 
 footer .form-control-lg {
     background-color: transparent;
-    border-color: #171819;
+    border-color: #e4c59041;
+    border-radius: 0;
+    color: #a7a7a7 !important;
+    padding: 12.2px;
 }
 
 footer .main-btn {
@@ -755,4 +762,18 @@ footer .main-btn {
 
 footer .main-btn:hover {
     background-color: #d2ac6a;
+}
+
+.email-col:nth-child(1) {
+    width: 62%;
+    padding: 0;
+}
+
+.email-col:nth-child(2) {
+    width: 35%;
+    padding: 0;
+}
+
+.footer .col-lg-4:nth-child(2) .row {
+    margin: 0 10px;
 }
