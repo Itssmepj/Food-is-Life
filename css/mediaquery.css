@@ -40,6 +40,10 @@
     .our-strength .card {
         width: 23%;
     }
+
+    .email-col:nth-child(1) {
+        width: 55%;
+    }
 }
 
 @media only screen and (max-width: 1250px) {
@@ -83,6 +87,14 @@
 
     .best-speciality .image-row {
         margin: 35px 45px 0;
+    }
+
+    .email-col:nth-child(1) {
+        width: 64%;
+    }
+
+    footer .main-btn {
+        padding: 21px 9px 21px 9px;
     }
 }
 

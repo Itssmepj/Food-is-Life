@@ -680,7 +680,7 @@ button:focus:not(:focus-visible) {
 
 /* Footer Section */
 footer {
-    padding: 100px 0;
+    padding: 100px 0 40px;
     background-image: url(../images/delicious-indian-thali.png);
     background-size: cover;
 }
@@ -776,4 +776,12 @@ footer .main-btn:hover {
 
 .footer .col-lg-4:nth-child(2) .row {
     margin: 0 10px;
+}
+
+.copyright, .copyright a {
+    font-size: 17px;
+    font-weight: 400;
+    color: #a7a7a7;
+    margin-top: 100px;
+    text-align: center;
 }

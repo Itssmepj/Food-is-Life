@@ -37,3 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
         defaultButton.click();
     }
 });
+
+// Footer
+document.getElementById("year").innerHTML = new Date().getFullYear();
