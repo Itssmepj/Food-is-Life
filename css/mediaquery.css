@@ -266,6 +266,22 @@
         width: 100%;
         margin-bottom: 50px;
     }
+
+    .email-col:nth-child(1) {
+        width: 68%;
+    }
+
+    .email-col:nth-child(2) {
+        width: 32%;
+    }
+
+    footer .main-btn {
+        padding: 21px 54px;
+    }
+
+    .copyright {
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 845px) {
