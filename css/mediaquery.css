@@ -384,6 +384,15 @@
         width: 48%;
     }
 
+    .email-col:nth-child(1) {
+        width: 100%;
+    }
+
+    .email-col:nth-child(2) {
+        width: 100%;
+        margin-top: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 730px) {
